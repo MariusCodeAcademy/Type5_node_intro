@@ -4,7 +4,9 @@
   "description": "node intro",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "read": "node fs.js",
+    "dev": "node app.js"
   },
   "keywords": [
     "node",
@@ -13,6 +15,7 @@
   "author": "M.K.",
   "license": "MIT",
   "dependencies": {
-    "casual": "^1.6.2"
+    "casual": "^1.6.2",
+    "dayjs": "^1.10.7"
   }
 }
